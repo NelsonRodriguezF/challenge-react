@@ -1,0 +1,41 @@
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 343px;
+  left: 40px;
+  border-radius: 15px;
+  margin: 0 24px;
+}
+
+.card-button{
+  background-color: #6BD1FF;
+  color: #F5F5F5;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.card-titulo{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 53px;
+  color: #F5F5F5;
+}
+
+.card-descripcion{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #F5F5F5;
+  line-height: 21.09px;
+}
+
+.card-player img{
+  border-radius: 15px;
+}
+

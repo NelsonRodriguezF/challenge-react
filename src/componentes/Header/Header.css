@@ -1,0 +1,36 @@
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 125px;
+    padding: 0 54px;
+    border-bottom: 4px solid #2271D1B2;
+  }
+
+  .header-list{
+    display: flex;
+    gap: 25px;
+    background-color: transparent;
+    list-style: none;
+  }
+
+  .header-list li{
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    width: 180px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 10px;
+  }
+
+.header-list li:hover{
+  cursor: pointer;
+}
